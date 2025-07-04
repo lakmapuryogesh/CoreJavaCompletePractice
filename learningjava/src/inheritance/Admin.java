@@ -3,7 +3,7 @@ package inheritance;
 public class Admin extends Developer{
     public void manage() {
     	System.out.println("Manage code");
-    	read();
+    	super.read();
     }
 	/*
 	 * if we use a method name inside othermethod even there
