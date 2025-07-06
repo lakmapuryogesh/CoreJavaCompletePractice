@@ -1,5 +1,7 @@
 package hierarchial;
 
+import accessmodifiers.Student;
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -9,6 +11,8 @@ public class Main {
 		Dog dog=new Dog();
 		dog.eat();
 		dog.bark();
+		Student obj=new Student();
+		obj.printRollNumber();
 
 	}
 
