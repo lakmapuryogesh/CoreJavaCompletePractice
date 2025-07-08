@@ -17,6 +17,7 @@ class TestClass implements testInterface{
 }
 
 class Geeks{
+	
 	public static void main(String[] args)
 	{
 		TestClass t=new TestClass();

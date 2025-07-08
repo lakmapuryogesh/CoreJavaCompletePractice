@@ -16,6 +16,7 @@ class Bicycle implements Vehicle{
 	@Override
 	public void speedUp(int increment) {
 		// TODO Auto-generated method stub
+		
 		speed=speed+increment;
 	}
 	@Override
